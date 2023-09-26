@@ -13,5 +13,11 @@ class DiceController < ApplicationController
 
   end
 
+  def menu
+
+    render({:template => "dicerolls/home"})
+
+  end
+
 
 end
